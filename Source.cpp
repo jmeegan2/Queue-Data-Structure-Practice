@@ -27,13 +27,16 @@ int main()
 	myqueue.push(0);
 	myqueue.push(1);
 	myqueue.push(2);
+	//Queue become 0,1,2
 
-	//Queue become 5,
+	myqueue.pop();
+	//Queue becomes 1,2
 
-	//Counting number of elements in queue
+	//Print contents of queue
 	while(!myqueue.empty()) {
+		cout << ' ' << myqueue.front();
 		myqueue.pop();
-		// c++;
+	
 	}
-	//cout << c;
+	
 }
