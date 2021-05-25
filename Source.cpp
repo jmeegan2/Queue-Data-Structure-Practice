@@ -27,10 +27,10 @@ int main()
 	myqueue.push(0);
 	myqueue.push(1);
 	myqueue.push(2);
-	//Queue become 0,1,2
+	//Queue becomes 0,1,2
 
 	myqueue.pop();
-	//Queue becomes 1,2
+	//Queue becomes 1,2 
 
 	//Print contents of queue
 	while(!myqueue.empty()) {
